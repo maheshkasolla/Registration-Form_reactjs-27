@@ -1,0 +1,82 @@
+/* Write your CSS code here */
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #ea580c;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card {
+  height: 40vh;
+  box-shadow: 3px 5px 6px 2px #9aa5b1;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 50px 18px 50px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.input-ele {
+  border: 1px solid #475569;
+  border-radius: 3px;
+  height: 35px;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  color: #cbd2d9;
+}
+
+.err-inp-ele {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.input-head {
+  color: #475569;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 13px;
+  margin-top: 0;
+  align-self: flex-start;
+}
+
+.sub-btn {
+  background-color: #ea580c;
+  padding: 8px 18px 8px 18px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.success-img {
+  width: 60px;
+  height: 60px;
+}
+
+.para {
+  color: #475569;
+  font-size: 16px;
+}
